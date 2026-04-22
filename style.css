@@ -7,6 +7,7 @@ body {
 
 .hero {
   height: 100vh;
+  background-attachment: fixed;
   background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
               url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b') center/cover;
   display: flex;
