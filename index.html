@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="overlay fade-in">
+    <h1>Performance não é opcional. É padrão.</h1>
+    <p>Equipamentos premium + Power Care = sua academia no mais alto nível</p>
+
+    <div class="buttons">
+      <button onclick="scrollToLead()">Quero elevar meu nível</button>
+      <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp">Falar no WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<section class="impact fade-in">
+  <h2>Se sua academia não performa, ela fica para trás.</h2>
+  <p>No mercado atual, experiência, qualidade e tecnologia são obrigatórios.</p>
+</section>
+
+<section class="powercare fade-in" id="powercare">
+  <h2>Power Care</h2>
+  <p class="highlight">Seu equipamento nunca para. Sua operação nunca perde performance.</p>
+
+  <div class="cards">
+    <div class="card">Manutenção preventiva contínua</div>
+    <div class="card">Atendimento prioritário</div>
+    <div class="card">Máximo desempenho garantido</div>
+  </div>
+
+  <button onclick="scrollToLead()" class="cta">Ativar Power Care</button>
+</section>
+
+<section class="authority fade-in">
+  <h2>Por que escolher a Power Tech?</h2>
+  <div class="cards">
+    <div class="card">Tecnologia de ponta</div>
+    <div class="card">Design sofisticado</div>
+    <div class="card">Durabilidade premium</div>
+  </div>
+</section>
+
+<section class="lead fade-in" id="lead">
+  <h2>Fale com um especialista</h2>
+  <p>Descubra como elevar o nível da sua academia</p>
+
+  <form onsubmit="enviarFormulario(event)">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu email" required>
+    <input type="text" placeholder="Telefone" required>
+    <button type="submit">Receber contato</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Power Tech</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
